@@ -1,9 +1,4 @@
 export default {
-    presets: [
-        '@babel/env',
-        '@babel/react'
-    ],
-    plugin: [
-        '@babel/plugin-transform-runtime'
-    ]
-}
+  presets: ["@babel/env", "@babel/react"],
+  plugins: ["@babel/plugin-transform-runtime"],
+};
